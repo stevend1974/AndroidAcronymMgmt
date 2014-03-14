@@ -47,7 +47,7 @@ View all acronyms.
 
 Select the acronym you want to view the details of.
 
-<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/readme_imgs/modifyacronym.png"/>
+<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/master/readme_imgs/modifyacronym.png"/>
 
 ### Modify acronym details
 

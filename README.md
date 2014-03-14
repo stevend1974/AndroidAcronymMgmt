@@ -3,7 +3,7 @@ AndroidAcronymMgmt
 
 Android Acronym Management App
 
-## Acronymer &mdash; Sample Android App for Managing Acronyms
+## Acronymer &mdash; Android App for Managing Acronyms
 
 This is a sample android application showing how to manage Acronyms.
 
@@ -27,7 +27,7 @@ Select the create button.
 
 Press the cancel button to cancel the acronym creation.
 
-<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/readme_imgs/createacronym.png"/>
+<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/master/readme_imgs/createacronym.png"/>
 
 
 ### View all acronyms
@@ -37,7 +37,7 @@ Select the View All menu.
 
 The list of all acronyms will appear.
 
-<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/readme_imgs/viewallacronyms.png"/>
+<img src="https://raw.github.com/stevend1974/AndroidAcronymMgmt/master/readme_imgs/viewallacronyms.png"/>
 
 ### View acronym details
 
@@ -100,5 +100,4 @@ The Android Acronymer software is licensed under the Apache License, Version 2.0
 You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
 

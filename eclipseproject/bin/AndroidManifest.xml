@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acronymer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.acronymer.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.acronymer.AddAcronymActivity"
+            android:label="@string/title_activity_add_acronym"
+            android:parentActivityName="com.acronymer.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.acronymer.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.acronymer.SaveAcronymActivity"
+            android:label="@string/title_activity_save_acronym" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.acronymer.AddAcronymActivity" />
+        </activity>
+        <activity
+            android:name="com.acronymer.ViewAllAcronymsActivity"
+            android:label="@string/title_activity_view_all_acronyms"
+             >
+        </activity>
+
+        <provider
+            android:name="com.acronymer.contentprovider.ContentProviderDB"
+            android:authorities="com.acronymer.content.provider.ContentProviderAuthorities" >
+        </provider>
+
+        <activity
+            android:name="com.acronymer.ViewAcronymActivity"
+            android:label="@string/title_activity_view_acronym" >
+        </activity>
+    </application>
+
+</manifest>

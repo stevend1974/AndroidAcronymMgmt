@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Acronymer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome to Acronymer.\nAn Android application that lets you manage acronyms.</string>
+
+    <!-- strings for main menu -->
+    <string name="action_search">Search</string>
+    <string name="action_add">Create</string>
+
+    <!-- strings for add acronym -->
+    <string name="title_activity_add_acronym">Create Acronym</string>
+    <string name="add_acronym_abbreviation">Abbreviation</string>
+    <string name="add_acronym_fullform">Full Form</string>
+    <string name="add_acronym_description">Description</string>
+    <string name="add_acronym_confirm_button">Confirm</string>
+    <string name="add_acronym_cancel_button">Cancel</string>
+    <string name="title_activity_save_acronym">Acronym Created</string>
+    <string name="action_viewall">View All</string>
+    <string name="acronym_added_message">The acronym has been added.\n\nAcronym:\n %1$s\n\nComplete:\n %2$s\n\nDescription:\n %3$s</string>
+    <string name="error">The following issue occurred: %1$s</string>
+    <string name="title_activity_view_all_acronyms">All Acronyms</string>
+    <string name="no_acronyms">No Acronyms could be found.</string>
+    <string name="title_activity_view_acronym">Acronym Details</string>
+    <string name="view_acronym_abbreviation">Abbreviation</string>
+    <string name="view_acronym_fullform">Full Form</string>
+    <string name="view_acronym_description">Description</string>
+    <string name="view_acronym_modify_button">Modify</string>
+    <string name="view_acronym_delete_button">Delete</string> 
+    
+    <string name="view_acronym_toast_message">Do not leave the abbreviation or full form field blank.</string>
+    
+    
+
+</resources>
